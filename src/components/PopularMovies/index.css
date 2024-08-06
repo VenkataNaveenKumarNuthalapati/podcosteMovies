@@ -1,0 +1,68 @@
+.popularMovies {
+  padding: 2rem;
+}
+.popularMovies > h1 {
+  margin-bottom: 1rem;
+}
+.moviesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.loader {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftAndRightArrow {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.leftAndRightArrow > p,
+.leftAndRightArrow > .prevButton,
+.leftAndRightArrow > .nextButton {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+}
+.topArrow {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+button {
+  cursor: pointer;
+}
+.failureView {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid red;
+}
+.failureView > img {
+  width: 400px;
+}
+.failureView > button {
+  background-color: rgb(3, 182, 241);
+  padding: 0.5rem 1.8rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
